@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://shangum.github.io/3-Column-Preview-Card-Component-Challenge-Frontend-Mentor/)
+- Solution URL: [Hosted By Github Pages](https://shangum.github.io/3-Column-Preview-Card-Component-Challenge-Frontend-Mentor/)
 
 ## My process
 
