@@ -1,0 +1,185 @@
+.card-container {
+    display: flex;    
+    justify-content: flex-start;
+    flex-direction: row;   
+    flex-wrap: wrap;     
+    margin-left: auto;
+    margin-right: auto;    
+    padding: 200px 0 200px 0;
+    border-radius: 10px;
+    min-height: 480px;
+    max-width: 870px;
+}
+
+.card {
+    padding: 40px;
+    max-width: 210px;     
+}
+
+.card-sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+.card-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+
+@media only screen and (max-width: 375px) {
+    
+    .card {
+        padding: 40px;
+        max-width: 290px;     
+    }
+
+    .card-sedans {
+        background-color: hsl(31, 77%, 52%);
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+
+    .card-luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: inherit;
+        border-bottom-left-radius: inherit;
+    }
+   
+    .card-container {    
+        padding: 50px 0 50px 0;        
+    }
+
+  }
+
+  @media only screen and (max-width: 870px) {
+    
+    .card {
+        padding: 40px;
+        max-width: 280px;     
+    }
+
+    .card-container {
+        display: flex;    
+        justify-content: center;
+        flex-direction: column;           
+        margin-left: auto;
+        margin-right: auto;        
+        border-radius: 10px;
+        min-height: 480px;        
+        max-width: 280px;
+    }
+    
+    .card-sedans {
+        background-color: hsl(31, 77%, 52%);
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+
+    .card-luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: inherit;
+        border-bottom-left-radius: inherit;
+    }
+
+
+  }
+
+
+.icons {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.car-type {
+    color: hsl(0, 0%, 95%);
+    display: block;
+    margin-bottom: 25px;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-transform: uppercase;    
+}
+
+.car-info {    
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 100px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+}
+
+.btn-div {
+    text-align: left;
+}
+
+.btn-learn-more {    
+    border-color: hsl(0, 0%, 95%);
+    border-width: 2px;
+    border-style: solid;
+    padding: 15px 50px 15px 50px;
+    border-radius: 30px;            
+    background-color: hsl(0, 0%, 95%);
+}
+
+.btn-learn-more:hover {    
+    color: hsl(0, 0%, 95%);
+}
+
+button.btn-learn-more-sudans {
+    color: hsl(31, 77%, 52%);    
+}
+
+.btn-learn-more-suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-learn-more-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+button.btn-learn-more-sudans:hover {    
+    background-color: transparent;
+}
+
+.btn-learn-more-suvs:hover {    
+    background-color: transparent;
+}
+
+.btn-learn-more-luxury:hover {    
+    background-color: transparent;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';    
+    src: url('./fonts/LexendDeca-VariableFont_wght.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';    
+    src: url('./fonts/BigShouldersDisplay-VariableFont_wght.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+body {
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
