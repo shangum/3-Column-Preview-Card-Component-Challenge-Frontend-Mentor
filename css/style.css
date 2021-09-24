@@ -165,14 +165,14 @@ button.btn-learn-more-sudans:hover {
 
 @font-face {
     font-family: 'Lexend Deca';    
-    src: url('/fonts/LexendDeca-VariableFont_wght.ttf');
+    src: url('./fonts/LexendDeca-VariableFont_wght.ttf');
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Big Shoulders Display';    
-    src: url('/fonts/BigShouldersDisplay-VariableFont_wght.ttf');
+    src: url('./fonts/BigShouldersDisplay-VariableFont_wght.ttf');
     font-style: normal;
     font-weight: 700;
 }
